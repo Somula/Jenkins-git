@@ -11,12 +11,12 @@ pipeline {
 
     //build
     stages {
-        stage('Build') { 
+        stage('Building') { 
             steps {
                 echo "Clone and Building"
             }
         }
-        stage('Test') { 
+        stage('Testing') { 
             steps {
                 echo "while Testing"
             }
