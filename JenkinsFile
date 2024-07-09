@@ -31,6 +31,11 @@ pipeline {
                 echo "Deploying"
             }
         }
+        stage('Deploying') { 
+            steps {
+                echo "Deploying"
+            }
+        }
     }
     post {
         success {
